@@ -59,9 +59,21 @@ td img {
 	height: 150px;
 	opacity: .75;
 }
+#message {
+	margin: auto;
+	max-width: 60%;
+	min-width: 10%;
+	border: 1px solid white;
+	background-color: #CAD0BB;
+	border-radius: 20px;
+	margin-top: 20px;
+	text-align: left;
+	font-family: Helvetica;
+}
 fieldset {
 	margin: auto;
-	width: 30%;
+	max-width: 40%;
+	min-width: 10%;
 	border: 1px solid white;
 	background-color: #CAD0BB;
 	border-radius: 20px;
@@ -100,4 +112,34 @@ input {
 }
 fieldset.favColor input {
 	display: block;
+}
+fieldset.about {
+	display:inline-block;
+	float:left;
+	max-width: 50%;
+	min-width: 40%;
+	background-color: white;
+	border-radius: 10px;
+	margin-top: 20px;
+	text-align: left;
+	font-family: Helvetica;
+}
+#photo {
+	float: right;
+	margin: auto;
+	padding:20px;
+	min-width: 40%;
+	max-width: 50%;
+}
+#thumper {
+	float: left;
+	width: 40%;
+	margin: auto;
+	font-size: 2em;
+	font-family: serif;
+	padding: 10px;
+}
+.message	{
+	max-width: 35%;
+	min-width: 10%;
 }
